@@ -1,0 +1,85 @@
+
+.presentation{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 7%;
+    font-size: 1.2rem;
+    color: #2E2263;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.situation{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.situation img{
+    width: 120%;
+}
+.entretien {
+  animation: jelly 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+.parler {
+  animation: jelly1 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+.rencontre {
+  animation: jelly2 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+
+@keyframes jelly {
+  0% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes jelly1 {
+  0% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes jelly2 {
+  0% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@media screen and (max-width: 801px){
+    .situation{
+        z-index: -1;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        width: 40vw;
+    }
+    .situation img{
+        padding-bottom:20%;
+        padding-top: 20%;
+        align-content: center;
+        margin: auto;
+    }
+    .presentation{
+        margin: auto;
+    }
+}

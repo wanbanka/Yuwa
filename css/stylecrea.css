@@ -1,0 +1,52 @@
+form{
+    margin-left: 10.5%;
+}
+label{
+    margin-top: 3%;
+}
+label{
+    font-size: 1.3rem;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 6%;
+    color: white;
+    background-image: -webkit-linear-gradient(right, rgba(107, 163, 255,1) 0%, rgba(231, 225, 255, 1) 100%);
+    background-image: linear-gradient(to left, rgba(107, 163, 255,1) 0%, rgba(231, 225, 255, 1) 100%);
+    background-size: auto 250%;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+}
+
+input, textarea{
+    border: 1px solid;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #dce7f9;
+}
+
+.bouton{
+    border: none;
+    color: #383070;
+    background-color: rgba(231, 225, 255, 1);
+    border-radius: 30px;
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.bouton:hover{
+    background-color:  #383070;
+    text-decoration: none;
+    color: rgba(231, 225, 255, 1);
+}
+
+.retour{
+    margin-left: 10.5%;
+    margin-bottom: 3%;
+}

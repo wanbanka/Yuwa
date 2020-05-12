@@ -1,0 +1,46 @@
+h1 {
+    font-weight: 800;
+    color: white;
+    background-image: -webkit-linear-gradient(right, rgba(107, 163, 255,1) 0%, rgba(231, 225, 255, 1) 100%);background-image: linear-gradient(to left, rgba(107, 163, 255,1) 0%, rgba(231, 225, 255, 1) 100%);
+    font-size: 4rem;
+    background-size: auto 250%;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10.5%;
+}
+
+.contenu {
+   font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 10.5%; 
+    margin-bottom:10%;
+}
+p{
+    margin-bottom: 10px;
+}
+
+.carpe{
+    position: absolute;
+    z-index: -1;
+    width: 45%;
+    top: 30%;
+    right: 0;
+}
+
+@media screen and (max-width: 801px){
+    .contenu{
+        width: 70%;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    .carpe{
+        width: 40%;
+        top: 35%;
+        
+    }
+}

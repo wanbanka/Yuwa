@@ -1,0 +1,88 @@
+h1{
+    font-size: 3rem;
+    padding-top: 2%;
+    margin-top: 0;
+    margin-left: 10.5%;
+}
+
+section{
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+
+p{
+    font-size: 0.8rem;
+    background-color: #dce7f9;
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    font-style: italic;
+    color: #383070;
+}
+
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.liste{
+    margin-left: 10.5%;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.bouton{
+    color: rgba(231, 225, 255, 1);
+    background-color: #383070;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 37.5%;
+    right:  58%;
+    width: 50px;
+    text-align: center;
+}
+
+.bouton:hover{
+    background-color:  rgba(231, 225, 255, 1);
+    text-decoration: none;
+    color: #383070;
+}
+.sujet p:first-child {
+    background-color: #38306f;
+    color: #fff;
+    font-weight: 700;
+}
+
+p:last-child {
+    margin-bottom: 10%;
+}
+
+
+textarea{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #dce7f9;
+}
+
+input{
+    margin-bottom: 10%;
+    margin-top: 10px;
+    width: 12%;
+    padding: 10px;
+    border: none;
+    background-color:#dce7f9;
+    border-radius: 30px;
+}
+
+fieldset{
+    margin-top: 5%;
+    border: 0;
+    width: 50%;
+}
+
+form{
+    margin-left: 10.5%; 
+}
+
