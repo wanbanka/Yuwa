@@ -18,5 +18,7 @@ J'ai été développeur back-end et donc responsable de la partie base de donné
 *N.B.2: Le tutoriel d'installation du projet se concentre sur WampServer, uniquement disponible sur Windows. Pour les utilisateurs de Mac ou de Linux, pas de panique: les commandes pour l'installation sont les mêmes d'un OS à un autre.*
 
 - Dirigez-vous vers le répertoire de WampServer `cd C:\wamp64\www`. 
-- Clonez le projet `git clone https://github.com/wanbanka/Yuwa.git`, puis dirigez-vous vers le répertoire Yuwa
-- 
+- Clonez le projet `git clone https://github.com/wanbanka/Yuwa.git`
+- Exécutez ensuite la commande suivante `chemin_complet_vers_mysql.exe (par exemple C:\wamp64\bin\mysql\mysql5.7.36\mysql) -u root`. Vous accédez ainsi à la console mysql, où vous pouvez exécuter les commandes SQL. 
+- Tapez `source C:\wamp64\www\Yuwa\no_stress.sql`. Il installera automatiquement la base de données nécessaire pour le fonctionnement de la plateforme. 
+- Tapez `exit` pour sortir de la console mysql. 
