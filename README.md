@@ -18,4 +18,5 @@ J'ai été développeur back-end et donc responsable de la partie base de donné
 *N.B.2: Le tutoriel d'installation du projet se concentre sur WampServer, uniquement disponible sur Windows. Pour les utilisateurs de Mac ou de Linux, pas de panique: les commandes pour l'installation sont les mêmes d'un OS à un autre.*
 
 - Dirigez-vous vers le répertoire de WampServer `cd C:\wamp64\www`. 
-- Clonez le projet `git clone `
+- Clonez le projet `git clone https://github.com/wanbanka/Yuwa.git`, puis dirigez-vous vers le répertoire Yuwa
+- 
