@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE DATABASE IF NOT EXISTS `no_stress`;
 
+USE `no_stress`;
+
 CREATE TABLE IF NOT EXISTS `article` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `titre` varchar(255) NOT NULL,
